@@ -11,7 +11,7 @@ This approach works quite well for a large number of images, with the special ex
 of those that are graphical sketches in the dataset. They require additional processing 
 or the use of another neural network.
 
-### How to use
+## How to use
 
 To use it, just open the file with the .pynb extension. You also need to change the path 
 and image file names if you are working with a different dataset.
