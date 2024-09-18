@@ -5,7 +5,7 @@
 My approach to the problem of finding similar images in an arbitrary dataset.
 The idea is to use the representations obtained by a pre-trained neural network
 to obtain the sum vectors of each filter of the last convolutional layer for 
-each image and then compare using a suitable proximity metric.
+each image and then compare using a cosine distance.
 
 This approach works quite well for a large number of images, with the special exception
 of those that are graphical sketches in the dataset. They require additional processing 
